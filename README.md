@@ -3,6 +3,10 @@
 
 Ian Taylor, May 2017
 
+Clock-Count determines the number of times a clock will chime within a given time frame. 
+For example, between 12:00 AM and 1:00 AM, a clock will chime thirteen times: twelve times at midnight, and once at 1:00 pm. 
+However, between 12:01 AM and 1:00 AM, a clock will chime only once. 
+
 ## To Install:
 1. Download the project, `cd` into the directory.
 2. Run `bundle install`, to install [rspec](http://rspec.info/) and its dependencies.
@@ -11,7 +15,7 @@ Ian Taylor, May 2017
 1. `cd` into the directoy.
 2. Run `./clock-count <start_time> <end_time>`.
 
-Times must be formatted in 24 hour time notation.
+Times must be formatted in 24 hour time notation. Use 00:00 for 12:00 AM (midnight), and 23:59 for 11:59 PM.  
 
 ## To Run The Unit Tests:
 1. `cd` into the directory.
