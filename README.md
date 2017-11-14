@@ -1,5 +1,5 @@
 # Clock-Count
-## Counting the Number Of Chimes Since Two Minutes To Midnight
+## Counting the Number Of Chimes
 
 Ian Taylor, May 2017
 
